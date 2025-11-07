@@ -1,4 +1,9 @@
 import { Movie } from "@/types/movie";
+import oneBattleImage from "@/assets/one-battle-after-another.jpg";
+import sinnersImage from "@/assets/sinners.jpg";
+import hamnetImage from "@/assets/hamnet.jpg";
+import wickedImage from "@/assets/wicked-for-good.jpg";
+import bugoniaImage from "@/assets/bugonia.jpg";
 
 export const movies: Movie[] = [
   {
@@ -6,7 +11,7 @@ export const movies: Movie[] = [
     title: "One Battle After Another",
     director: "Paul Thomas Anderson",
     overallScore: 8.2,
-    imageUrl: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=600&fit=crop",
+    imageUrl: oneBattleImage,
     segments: [
       { 
         name: "Hollywood Traditionalist", 
@@ -39,7 +44,7 @@ export const movies: Movie[] = [
     title: "Sinners",
     director: "Ryan Coogler",
     overallScore: 7.8,
-    imageUrl: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=600&fit=crop",
+    imageUrl: sinnersImage,
     segments: [
       { 
         name: "Hollywood Traditionalist", 
@@ -72,7 +77,7 @@ export const movies: Movie[] = [
     title: "Hamnet",
     director: "Chloé Zhao",
     overallScore: 7.5,
-    imageUrl: "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?w=400&h=600&fit=crop",
+    imageUrl: hamnetImage,
     segments: [
       { 
         name: "Hollywood Traditionalist", 
@@ -105,7 +110,7 @@ export const movies: Movie[] = [
     title: "Wicked: For Good",
     director: "Jon M. Chu",
     overallScore: 7.3,
-    imageUrl: "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?w=400&h=600&fit=crop",
+    imageUrl: wickedImage,
     segments: [
       { 
         name: "Hollywood Traditionalist", 
@@ -138,7 +143,7 @@ export const movies: Movie[] = [
     title: "Bugonia",
     director: "Yorgos Lanthimos",
     overallScore: 7.1,
-    imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=600&fit=crop",
+    imageUrl: bugoniaImage,
     segments: [
       { 
         name: "Hollywood Traditionalist", 
