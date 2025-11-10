@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Hero } from "@/components/Hero";
+import { Navigation } from "@/components/Navigation";
 import { BestPictureCard } from "@/components/BestPictureCard";
 import { MovieModal } from "@/components/MovieModal";
 import { FormulaExplanation } from "@/components/FormulaExplanation";
@@ -18,6 +19,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-hero">
+      <Navigation />
       <Hero />
       
       <div className="container mx-auto px-4 py-12">

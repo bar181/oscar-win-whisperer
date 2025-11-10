@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Navigation } from "@/components/Navigation";
 import { Cloud, CloudRain, Sun, Wind, Droplets, Eye } from "lucide-react";
 import tiffImage from "@/assets/tiff-toronto.jpg";
 
@@ -81,6 +82,7 @@ const Weather = () => {
 
   return (
     <div className="min-h-screen bg-gradient-hero">
+      <Navigation />
       {/* Hero Section with TIFF Image */}
       <div className="relative h-[400px] overflow-hidden">
         <img 

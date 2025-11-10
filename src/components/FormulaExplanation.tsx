@@ -1,6 +1,13 @@
 export const FormulaExplanation = () => {
   return (
     <div className="space-y-8 max-w-4xl mx-auto">
+      <section className="space-y-4 mb-8">
+        <h2 className="text-2xl font-bold text-gold">How we built this site</h2>
+        <p className="text-muted-foreground leading-relaxed">
+          This site was built during our Agentic Learning Labs office hours. Students should check the announcements section for a video showing step by step instructions.
+        </p>
+      </section>
+
       <section className="space-y-4">
         <h2 className="text-3xl font-bold text-gold">🎬 Scoring Methodology</h2>
         <p className="text-muted-foreground leading-relaxed">
