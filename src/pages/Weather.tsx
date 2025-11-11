@@ -4,6 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Navigation } from "@/components/Navigation";
 import { Cloud, CloudRain, Sun, Wind, Droplets, Eye } from "lucide-react";
 import tiffImage from "@/assets/tiff-toronto.jpg";
+import bradImage from "@/assets/brad-pixar.png";
 
 interface CurrentWeather {
   temperature: number;
@@ -92,9 +93,16 @@ const Weather = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8">
-          <div className="container mx-auto">
-            <h1 className="text-5xl font-bold text-gold mb-2">Toronto Weather</h1>
-            <p className="text-xl text-muted-foreground">Home of the Toronto International Film Festival</p>
+          <div className="container mx-auto flex items-end justify-between">
+            <div>
+              <h1 className="text-5xl font-bold text-gold mb-2">Toronto Weather</h1>
+              <p className="text-xl text-muted-foreground">Home of the Toronto International Film Festival</p>
+            </div>
+            <img 
+              src={bradImage} 
+              alt="Weather presenter" 
+              className="w-32 h-32 object-contain"
+            />
           </div>
         </div>
       </div>
